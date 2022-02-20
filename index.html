@@ -37,18 +37,18 @@
             
             <!-- Create todo form -->
             <div>
-                <form id="todo-form">
+                <form onsubmit="handleSubmit()" id="todo-form">
                     <div class="todo-form-item">
                         <label>Task</label>
-                        <input type="text">
+                        <input id="task" type="text">
                     </div>
 
                     <div class="todo-form-item">
                         <label>Description</label>
-                        <textarea rows="5"></textarea>
+                        <textarea id="description" rows="5"></textarea>
                     </diCreatev>
 
-                    <input type="submit" value="Add Item">
+                    <input  type="submit" value="Add Item">
 
 
                 </form>
@@ -93,6 +93,7 @@
         </div>
         <!-- Content end -->
     </div>
+    <script src="./js/main.js"></script>
 
 </body>
 
