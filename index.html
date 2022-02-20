@@ -34,10 +34,10 @@
             <div id="todo-title">
                 <h2>Todo List</h2>
             </div>
-            
+
             <!-- Create todo form -->
             <div>
-                <form onsubmit="handleSubmit()" id="todo-form">
+                <div id="todo-form">
                     <div class="todo-form-item">
                         <label>Task</label>
                         <input id="task" type="text">
@@ -46,54 +46,37 @@
                     <div class="todo-form-item">
                         <label>Description</label>
                         <textarea id="description" rows="5"></textarea>
-                    </diCreatev>
+                        </diCreatev>
 
-                    <input  type="submit" value="Add Item">
+                        <input onclick="handleSubmit()" type="submit" value="Add Item">
 
 
-                </form>
+                    </div>
+
+                </div>
+                <!-- Create todo form end -->
+
+                <!-- Todo list Table start -->
+                <div id="todo-list-table">
+                    <table id="todo-table">
+                        <thead>
+                            <tr>
+                                <th>S.no</th>
+                                <th>Task</th>
+                                <th>Description</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Todo list Table end -->
 
             </div>
-            <!-- Create todo form end -->
-
-            <!-- Todo list Table start -->
-            <div id="todo-list-table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>S.no</th>
-                            <th>Task</th>
-                            <th>Description</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>gh</td>
-                            <td>bhj</td>
-                            <td>
-                                <button>Delete</button>
-                            </td>
-                        </tr>
-                       
-                        <tr>
-                            <td>2</td>
-                            <td>Free Freshness</td>
-                            <td>gvvvvvkvjvjk</td>
-                            <td>
-                                <button>Delete</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <!-- Todo list Table end -->
-
+            <!-- Content end -->
         </div>
-        <!-- Content end -->
-    </div>
-    <script src="./js/main.js"></script>
+        <script src="./js/main.js"></script>
 
 </body>
 
