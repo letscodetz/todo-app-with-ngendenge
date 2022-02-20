@@ -1,5 +1,5 @@
 
-
+/*  Header css */
 ul > li {
     display: inline-block;
     margin-right: 10px;
@@ -17,4 +17,12 @@ body {
 
 img {
     width: 4%;
+}
+
+
+/* Contets css */
+
+#todo-title {
+    display: flex;
+    justify-content: center;
 }
