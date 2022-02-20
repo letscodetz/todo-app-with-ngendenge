@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./styles/main.css"/>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css" />
 
 </head>
+
 <body>
 
     <div id="todo-app">
@@ -26,19 +28,43 @@
 
 
         <!-- Content start -->
-        <div id="content">
+        <div id="contents">
+
 
             <div id="todo-title">
                 <h2>Todo List</h2>
             </div>
+            
 
 
-            <div>Form for cresating todo</div>
+
+            <!-- Create todo form -->
+            <div>
+                <form id="todo-form">
+                    <div class="todo-form-item">
+                        <label>Task</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="todo-form-item">
+                        <label>Description</label>
+                        <textarea rows="5"></textarea>
+                    </diCreatev>
+
+                    <input type="submit" value="Add Item">
+
+
+                </form>
+
+            </div>
+            <!-- Create todo form end -->
+
             <div>List of todos</div>
 
         </div>
         <!-- Content end -->
     </div>
-  
+
 </body>
+
 </html>

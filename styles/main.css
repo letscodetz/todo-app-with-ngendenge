@@ -22,7 +22,42 @@ img {
 
 /* Contets css */
 
+#contents {
+    margin-left: 25%;
+    margin-right: 15%;
+    /* border: 1px solid red; */
+}
+
 #todo-title {
     display: flex;
     justify-content: center;
+}
+
+input[type=text] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input[type=submit] {
+    width: 10%;
+    color: white;
+    border-radius: 6%;
+    border-color: blue;
+    background-color: blue;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.todo-form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: #615d5d;
+}
+
+.todo-form-item label {
+    margin-bottom: 10px;
 }
